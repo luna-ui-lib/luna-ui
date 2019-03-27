@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> toMatchSnapshot: List of Checkboxes 1`] = `
+<div>
+  <div
+    className="sc-kgoBCf ivXsRw"
+  >
+    <input
+      className="sc-kAzzGY bpDdd"
+      id="ex1"
+      name="ex"
+      readOnly={true}
+      type="checkbox"
+      value="1"
+    />
+    <label
+      className="sc-chPdSV fwYjhg"
+      htmlFor="ex1"
+    />
+    <label
+      htmlFor="ex1"
+    >
+      pop
+    </label>
+  </div>
+  <div
+    className="sc-dxgOiQ lndBkL"
+  >
+    <input
+      checked={true}
+      className="sc-kGXeez eYqwZQ"
+      id="ex2"
+      name="ex"
+      onChange={[Function]}
+      readOnly={true}
+      type="checkbox"
+      value="2"
+    />
+    <label
+      className="sc-kpOJdX cnkErW"
+      htmlFor="ex2"
+    />
+    <label
+      htmlFor="ex2"
+    >
+      rock
+    </label>
+  </div>
+  <div
+    className="sc-eNQAEJ bdadmr"
+  >
+    <input
+      className="sc-ckVGcZ jhrodw"
+      disabled={true}
+      id="ex3"
+      name="ex"
+      readOnly={true}
+      type="checkbox"
+      value="2"
+    />
+    <label
+      className="sc-jKJlTe Zsqdt"
+      htmlFor="ex3"
+    />
+    <label
+      htmlFor="ex3"
+    >
+      rock
+    </label>
+  </div>
+</div>
+`;

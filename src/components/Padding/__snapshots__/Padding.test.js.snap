@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Padding /> toMatchSnapshot 1`] = `
+<div
+  className="sc-bdVaJa crQnAS"
+  value="11px"
+>
+  <h1>
+    Snap Test Rocks
+  </h1>
+</div>
+`;
+
+exports[`<Padding /> toMatchSnapshot: Selector 1`] = `
+<div
+  className="sc-bwzfXH icXqRl"
+  value="11px"
+>
+  <h1>
+    Snap Test Rocks
+  </h1>
+</div>
+`;
+
+exports[`<Padding /> toMatchSnapshot: Selector and Value 1`] = `
+<div
+  className="sc-bxivhb iosSTl"
+  value="10px 20px 20px 30px"
+>
+  <h1>
+    Snap Test Rocks
+  </h1>
+</div>
+`;
+
+exports[`<Padding /> toMatchSnapshot: Value 1`] = `
+<div
+  className="sc-htpNat dpiLti"
+  value="10px 20px 20px 30px"
+>
+  <h1>
+    Snap Test Rocks
+  </h1>
+</div>
+`;

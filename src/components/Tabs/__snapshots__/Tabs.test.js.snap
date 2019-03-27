@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> toMatchSnapshot 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa eGJdiE"
+  >
+    <div
+      className="sc-htpNat jEnfzJ"
+      id="selection1"
+      kind="primary"
+      onClick={[Function]}
+    >
+      <span>
+        Selection 1
+      </span>
+    </div>
+    <div
+      className="sc-bwzfXH cQrmHx"
+      id="selection2"
+      kind="primary"
+      onClick={[Function]}
+    >
+      <span>
+        Selection 2
+      </span>
+    </div>
+    <div
+      className="sc-bwzfXH cQrmHx"
+      id="selection3"
+      kind="primary"
+      onClick={[Function]}
+    >
+      <span>
+        Selection 3
+      </span>
+    </div>
+    <div
+      className="sc-bwzfXH cQrmHx"
+      id="selection4"
+      kind="primary"
+      onClick={[Function]}
+    >
+      <span>
+        Selection 4
+      </span>
+    </div>
+    <div
+      className="sc-bwzfXH cQrmHx"
+      id="selection5"
+      kind="primary"
+      onClick={[Function]}
+    >
+      <span>
+        Selection 5
+      </span>
+    </div>
+    <div
+      className="sc-bwzfXH cQrmHx"
+      id="selection6"
+      kind="primary"
+      onClick={[Function]}
+    >
+      <span>
+        Selection 6
+      </span>
+    </div>
+  </div>
+  <div>
+    Content for tab 1
+  </div>
+</div>
+`;

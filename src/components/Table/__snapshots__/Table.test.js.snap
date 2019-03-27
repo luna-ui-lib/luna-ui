@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> toMatchSnapshot: Light 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa gTWhUW"
+    kind="light"
+  >
+    <header
+      className="sc-bwzfXH eLxnQL"
+    >
+      <div
+        className="sc-ifAKCX gnWorq"
+      >
+        <div
+          className="sc-bZQynM bqZOVg"
+        >
+          Example
+        </div>
+      </div>
+    </header>
+    <section
+      className="sc-htpNat jybZUk"
+    >
+      <div
+        className="sc-ifAKCX gnWorq"
+      >
+        <div
+          className="sc-bZQynM bqZOVg"
+        >
+          Example
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`<Table /> toMatchSnapshot: Transparent 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa fZrWtX"
+    kind="transparent"
+  >
+    <header
+      className="sc-bwzfXH eLxnQL"
+    >
+      <div
+        className="sc-ifAKCX gnWorq"
+      >
+        <div
+          className="sc-bZQynM bqZOVg"
+        >
+          Example
+        </div>
+      </div>
+    </header>
+    <section
+      className="sc-htpNat jybZUk"
+    >
+      <div
+        className="sc-ifAKCX gnWorq"
+      >
+        <div
+          className="sc-bZQynM bqZOVg"
+        >
+          Example
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;

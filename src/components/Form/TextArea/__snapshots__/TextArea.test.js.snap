@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> toMatchSnapshot 1`] = `
+<div>
+  <textarea
+    className="sc-bdVaJa eebKDZ"
+    defaultValue="Bla is blu when blu is bla"
+    height="80px"
+    kind="default"
+  />
+  <textarea
+    className="sc-bdVaJa eebKDZ"
+    height="80px"
+    kind="default"
+    onClick={[Function]}
+  />
+</div>
+`;

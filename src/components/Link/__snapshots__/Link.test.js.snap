@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> toMatchSnapshot 1`] = `
+<a
+  className="sc-bdVaJa eZStWY"
+  href="http://example.de"
+>
+  My Link
+</a>
+`;

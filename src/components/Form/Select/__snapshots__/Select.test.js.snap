@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> toMatchSnapshot 1`] = `
+<div>
+  <div
+    className="sc-bwzfXH bVXEpg"
+  >
+    <select
+      className="sc-bdVaJa gThJEg"
+      defaultValue={2}
+      icon="seedling"
+      kind="default"
+    >
+      <option
+        value="1"
+      >
+        Angeratum
+      </option>
+      <option
+        value="2"
+      >
+        Marigold
+      </option>
+    </select>
+    <span
+      className="sc-bxivhb fozrMO"
+    />
+    <span
+      className="sc-htpNat eeDWLn"
+    />
+  </div>
+  <div
+    className="sc-bwzfXH bVXEpg"
+  >
+    <select
+      className="sc-bdVaJa hcUPcu"
+      icon=""
+      kind="default"
+      onClick={[Function]}
+    >
+      <option>
+        Dog
+      </option>
+      <option>
+        Cat
+      </option>
+      <option>
+        Rat
+      </option>
+    </select>
+    <span
+      className="sc-bxivhb fozrMO"
+    />
+  </div>
+</div>
+`;

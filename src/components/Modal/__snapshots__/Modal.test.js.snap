@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> toMatchSnapshot: Active Modal 1`] = `
+<div>
+  <section
+    className="sc-bZQynM fTdDRP"
+  >
+    <div
+      className="sc-gzVnrw ilmxXx"
+    >
+      <button
+        className="sc-htoDjs kmfhFx"
+        onClick={[Function]}
+      />
+      <h3>
+        My Modal2
+      </h3>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`<Modal /> toMatchSnapshot: Deactive Modal 1`] = `
+<div>
+  <section
+    className="sc-dnqmqq jisnn"
+  >
+    <div
+      className="sc-iwsKbI kOdJPe"
+    >
+      <button
+        className="sc-gZMcBi cfYjKE"
+        onClick={[Function]}
+      />
+      <h3>
+        My Modal 1
+      </h3>
+    </div>
+  </section>
+</div>
+`;

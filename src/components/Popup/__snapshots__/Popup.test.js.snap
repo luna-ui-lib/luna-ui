@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Popup /> toMatchSnapshot: contextMenu 1`] = `
+<div>
+  <div
+    className="sc-jTzLTM bYQBNw"
+    onClick={[Function]}
+  >
+    <button
+      className="sc-fjdhpX ijQRov"
+    />
+    <ul
+      className="sc-jzJRlG jszoBt"
+    >
+      <li
+        className="sc-cSHVUG jeBFMY"
+        onClick={[Function]}
+      >
+        Menu Item
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<Popup /> toMatchSnapshot: navContextMenu 1`] = `
+<div>
+  <div
+    className="sc-bxivhb cJZKXe"
+    onClick={[Function]}
+  >
+    <button
+      className="sc-ifAKCX ffgzDY"
+    >
+       
+       
+    </button>
+    <ul
+      className="  sc-EHOje aVOIR"
+      onClick={[Function]}
+    >
+      <li
+        className="sc-bZQynM blVFwR"
+        onClick={[Function]}
+      >
+        Menu Item
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<Popup /> toMatchSnapshot: navContextMenuSeparatorText 1`] = `
+<div>
+  <div
+    className="sc-dnqmqq fxUGAf"
+    onClick={[Function]}
+  >
+    <button
+      className="sc-iwsKbI rKKYm"
+    >
+       
+      My Menu
+       
+    </button>
+    <ul
+      className="  sc-gZMcBi jrNzwC"
+      onClick={[Function]}
+    >
+      <li
+        className="sc-gqjmRU iTXUEk"
+        onClick={[Function]}
+      >
+        Menu Item
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Collapsible /> toMatchSnapshot: Collapsed 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <button
+      className="sc-gZMcBi eAgGZT"
+      onClick={[Function]}
+    >
+      Labels
+       
+    </button>
+    <div
+      className="sc-iwsKbI jLkQCk"
+    >
+      <ul>
+        <li>
+          First item
+        </li>
+        <li>
+          Second item
+        </li>
+        <li>
+          Third item
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Collapsible /> toMatchSnapshot: Expanded 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <button
+      className="sc-htoDjs bdCNyL"
+      onClick={[Function]}
+    >
+      Labels
+       
+    </button>
+    <div
+      className="sc-gzVnrw kqQGtl"
+    >
+      <ul>
+        <li>
+          First item
+        </li>
+        <li>
+          Second item
+        </li>
+        <li>
+          Third item
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

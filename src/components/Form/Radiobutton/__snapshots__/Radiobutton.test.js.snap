@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radiobutton /> toMatchSnapshot 1`] = `
+<div>
+  <div
+    className="sc-jTzLTM paZTa"
+  >
+    <input
+      checked={true}
+      className="sc-gqjmRU iFwxyt"
+      id="rd3"
+      name="rd"
+      readOnly={true}
+      type="radio"
+      value="3"
+    />
+    <label
+      className="sc-VigVT hMeTgU"
+      htmlFor="rd3"
+    />
+    <label
+      htmlFor="rd3"
+    >
+      funk
+    </label>
+  </div>
+  <div
+    className="sc-cSHVUG jynBIs"
+  >
+    <input
+      className="sc-fjdhpX iJThNM"
+      id="rd4"
+      name="rd"
+      onChange={[Function]}
+      readOnly={true}
+      type="radio"
+      value="4"
+    />
+    <label
+      className="sc-jzJRlG cdiKJv"
+      htmlFor="rd4"
+    />
+    <label
+      htmlFor="rd4"
+    >
+      samba
+    </label>
+  </div>
+</div>
+`;

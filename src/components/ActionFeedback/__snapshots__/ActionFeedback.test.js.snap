@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionFeedback /> toMatchSnapshot 1`] = `
+<div
+  className="sc-bwzfXH hyRwHX"
+>
+  Lebron James has scored!
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputText /> toMatchSnapshot 1`] = `
+<div>
+  <div
+    className="sc-bwzfXH bVXEpg"
+  >
+    <input
+      className="sc-bdVaJa ZxQaq"
+      icon="bug"
+      kind="warning"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Do not sleep more then 3h a day. :P"
+      type="text"
+    />
+    <span
+      className="sc-htpNat eeDWLn"
+    />
+    <div
+      className="sc-bxivhb inrsMJ"
+    />
+  </div>
+  <div
+    className="sc-bwzfXH bVXEpg"
+  >
+    <input
+      className="sc-bdVaJa hYKoVg"
+      icon=""
+      kind="warning"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+    <div
+      className="sc-bxivhb inrsMJ"
+    />
+  </div>
+  <div
+    className="sc-bwzfXH bVXEpg"
+  >
+    <input
+      className="sc-bdVaJa uNrHb"
+      icon=""
+      kind="primary"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+    <div
+      className="sc-bxivhb inrsMJ"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Paginator /> NextPage and Previous page disabled toMatchSnapshot 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <button
+      className="sc-ifAKCX eCgCfk"
+      disabled={true}
+      onClick={[Function]}
+    />
+    <span
+      className="sc-EHOje kJmRE"
+    >
+      1
+       - 
+      3
+    </span>
+    <button
+      className="sc-ifAKCX eCgCfk"
+      disabled={false}
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<Paginator /> PreviousPage and Next page disabled toMatchSnapshot 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <button
+      className="sc-iwsKbI bvTUrg"
+      disabled={false}
+      onClick={[Function]}
+    />
+    <span
+      className="sc-gZMcBi fuUimc"
+    >
+      4
+       - 
+      3
+    </span>
+    <button
+      className="sc-iwsKbI bvTUrg"
+      disabled={true}
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

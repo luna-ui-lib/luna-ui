@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Area /> toMatchSnapshot 1`] = `
+<div>
+  <div
+    className="sc-htpNat fdTvEY"
+  >
+    <strong>
+      Lebron James has scored!
+    </strong>
+  </div>
+</div>
+`;

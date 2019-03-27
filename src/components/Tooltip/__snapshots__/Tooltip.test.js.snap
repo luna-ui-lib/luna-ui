@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> toMatchSnapshot: Placement -> bottom 1`] = `
+<div
+  className="sc-bxivhb kRNkEl"
+>
+  <div
+    className="luna-tooltip sc-ifAKCX hYRDHZ"
+  >
+    <span
+      className="sc-bdVaJa gOGVcF"
+    >
+      <span>
+        tooltip content
+      </span>
+    </span>
+  </div>
+  <div>
+    <p>
+       My tooltip test
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Tooltip /> toMatchSnapshot: Placement -> left 1`] = `
+<div
+  className="sc-EHOje JTHZv"
+>
+  <div
+    className="luna-tooltip sc-bZQynM fiJdoX"
+  >
+    <span
+      className="sc-bdVaJa gOGVcF"
+    >
+      <span>
+        tooltip content
+      </span>
+    </span>
+  </div>
+  <div>
+    <p>
+       My tooltip test
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Tooltip /> toMatchSnapshot: Placement -> right 1`] = `
+<div
+  className="sc-gzVnrw ihpEPw"
+>
+  <div
+    className="luna-tooltip sc-htoDjs jprHSn"
+  >
+    <span
+      className="sc-bdVaJa gOGVcF"
+    >
+      <span>
+        tooltip content
+      </span>
+    </span>
+  </div>
+  <div>
+    <p>
+       My tooltip test
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Tooltip /> toMatchSnapshot: Placement -> top 1`] = `
+<div
+  className="sc-bwzfXH ijLNHA"
+>
+  <div
+    className="luna-tooltip sc-htpNat illqYy"
+  >
+    <span
+      className="sc-bdVaJa gOGVcF"
+    >
+      <span>
+        tooltip content
+      </span>
+    </span>
+  </div>
+  <div>
+    <p>
+       My tooltip test
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> toMatchSnapshot: Badge 1`] = `
+<div>
+  <span
+    className="badge  sc-bxivhb blaiqS"
+    onClick={[Function]}
+  >
+    <strong
+      className="sc-ifAKCX JjZUs"
+    >
+      Address
+    </strong>
+    <span
+      className="sc-EHOje izHBeS"
+    />
+  </span>
+</div>
+`;
+
+exports[`<Badge /> toMatchSnapshot: Label 1`] = `
+<div>
+  <span
+    className="badge  sc-bZQynM deVMPx"
+  >
+    <strong
+      className="sc-gzVnrw gQVXV"
+    >
+      Address
+    </strong>
+  </span>
+</div>
+`;

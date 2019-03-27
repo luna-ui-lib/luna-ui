@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> toMatchSnapshot: Fixed 1`] = `
+<div>
+  <div
+    className="sc-bxivhb izemKD"
+  >
+    <div>
+      <div
+        className="sc-ifAKCX gJdvJe"
+      >
+        <h1>
+          My App
+        </h1>
+      </div>
+      <div
+        className="sc-EHOje dNeOWL"
+      >
+        <button>
+          actions
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Navbar /> toMatchSnapshot: Static 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa cPehbA"
+  >
+    <div>
+      <div
+        className="sc-bwzfXH bdSfMS"
+      >
+        <h1>
+          My App
+        </h1>
+      </div>
+      <div
+        className="sc-htpNat iCvOKN"
+      >
+        <button>
+          actions
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

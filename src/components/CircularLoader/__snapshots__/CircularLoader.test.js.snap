@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircularLoader /> toMatchSnapshot 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa bAxxMn"
+  />
+</div>
+`;
