@@ -1,28 +1,30 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
+import React from 'react'
+import { storiesOf } from '@storybook/react'
+import { action } from '@storybook/addon-actions'
 import { withKnobs, text, boolean, radios, select } from '@storybook/addon-knobs'
 
-import { Theme, defaultTheme, Margin, Button } from '../src';
+import { Theme, defaultTheme, Margin, Button } from '../src'
 
 storiesOf('Buttons', module)
   .addDecorator(withKnobs)
   .add('component', () => {
-   const kindOptions = {
+    const kindOptions = {
       Primary: 'primary',
       Default: 'default',
       Success: 'success',
       Danger: 'danger',
       Warning: 'warning'
-    };
-    const kindValue = radios('Kind', kindOptions, 'primary');
+    }
+
+    const kindValue = radios('Kind', kindOptions, 'primary')
 
     const sizeOptions = {
       Small: 'small',
       Medium: 'medium',
       Large: 'large'
-    };
-    const sizeValue = select('Size', sizeOptions, 'medium');
+    }
+
+    const sizeValue = select('Size', sizeOptions, 'medium')
 
     return (
       <Theme theme={defaultTheme}>
@@ -41,4 +43,4 @@ storiesOf('Buttons', module)
         </Margin>
       </Theme>
     )
-  });
+  })

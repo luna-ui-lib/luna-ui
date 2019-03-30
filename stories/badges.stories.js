@@ -1,9 +1,9 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
+import React from 'react'
+import { storiesOf } from '@storybook/react'
+import { action } from '@storybook/addon-actions'
 import { withKnobs, text, boolean, radios } from '@storybook/addon-knobs'
 
-import { Theme, defaultTheme, Badge, Margin } from '../src';
+import { Theme, defaultTheme, Badge, Margin } from '../src'
 
 storiesOf('Badges', module)
   .addDecorator(withKnobs)
@@ -16,8 +16,9 @@ storiesOf('Badges', module)
       General: 'general',
       Nogo: 'nogo',
       Customer: 'customer'
-    };
-    const kindValue = radios('Kind', kindOptions, 'address');
+    }
+
+    const kindValue = radios('Kind', kindOptions, 'address')
 
     return (
       <Theme theme={defaultTheme}>
@@ -36,4 +37,4 @@ storiesOf('Badges', module)
         </Margin>
       </Theme>
     )
-  });
+  })

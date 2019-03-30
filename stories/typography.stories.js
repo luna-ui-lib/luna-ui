@@ -1,12 +1,10 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { withKnobs, text, boolean, radios } from '@storybook/addon-knobs'
+import React from 'react'
+import { storiesOf } from '@storybook/react'
+import { action } from '@storybook/addon-actions'
 
-import { Theme, defaultTheme, Hint, Link, Margin } from '../src';
+import { Theme, defaultTheme, Hint, Link, Margin } from '../src'
 
 storiesOf('Typography', module)
-  .addDecorator(withKnobs)
   .add('text', () => {
     return (
       <Theme theme={defaultTheme}>
@@ -28,4 +26,4 @@ storiesOf('Typography', module)
         </Margin>
       </Theme>
     )
-  });
+  })

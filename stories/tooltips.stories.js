@@ -1,19 +1,20 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { withKnobs, radios } from '@storybook/addon-knobs';
+import React from 'react'
+import { storiesOf } from '@storybook/react'
+import { withKnobs, radios } from '@storybook/addon-knobs'
 
-import { Theme, defaultTheme, Margin, Tooltip, Button } from '../src';
+import { Theme, defaultTheme, Margin, Tooltip, Button } from '../src'
 
 storiesOf('Tooltips', module)
   .addDecorator(withKnobs)
   .add('component', () => {
-   const placementOptions = {
+    const placementOptions = {
       Top: 'top',
       Right: 'right',
       Bottom: 'bottom',
       Left: 'left'
-    };
-    const placementValue = radios('Placement', placementOptions, 'top');
+    }
+
+    const placementValue = radios('Placement', placementOptions, 'top')
 
     const TooltipContent = <span>
       <strong> Reason: <br/></strong>
@@ -29,4 +30,4 @@ storiesOf('Tooltips', module)
         </Margin>
       </Theme>
     )
-  });
+  })
