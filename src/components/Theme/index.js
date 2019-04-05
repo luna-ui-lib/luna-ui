@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
 
 import defaultTheme from '../../config/defaultTheme';
-import DefaultStyles from '../../config/defaultStyles';
-import DefaulTyphography from '../../config/defaultTyphography';
 
 /**
  * Theme component.
@@ -22,8 +20,6 @@ class ThemeComponent extends React.PureComponent {
     return (
       <ThemeProvider theme={theme}>
         <div>
-          <DefaultStyles />
-          <DefaulTyphography />
           {children}
         </div>
       </ThemeProvider>

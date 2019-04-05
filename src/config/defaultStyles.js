@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-expressions */
-import { createGlobalStyle } from 'styled-components';
+import { injectGlobal } from 'styled-components';
 
-export default createGlobalStyle`
+export default function injectDefaultStyles() {
+  injectGlobal`
   /* http://meyerweb.com/eric/tools/css/reset/
     v2.0 | 20110126
     License: none (public domain)
@@ -65,3 +66,4 @@ export default createGlobalStyle`
     padding: 0px 10%;
   }
 `;
+}

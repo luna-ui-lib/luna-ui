@@ -28,7 +28,13 @@ import CircularLoader from './components/CircularLoader';
 import Paginator from './components/Paginator';
 import Tabs from './components/Tabs';
 
+import injectDefaultStyles from './config/defaultStyles';
+import injectDefaultTyphography from './config/defaultTyphography';
+
 import defaultTheme from './config/defaultTheme';
+
+injectDefaultStyles();
+injectDefaultTyphography();
 
 export default {
   ActionFeedback,

@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-expressions */
-import { createGlobalStyle } from 'styled-components';
+import { injectGlobal } from 'styled-components';
 
-export default createGlobalStyle`
+export default function injectDefaultTyphography() {
+  injectGlobal`
   body {
     color: #333333;
     font-size: 14px;
@@ -49,3 +50,4 @@ export default createGlobalStyle`
     padding: 0px 6px;
   }
 `;
+}
