@@ -36,7 +36,7 @@ import defaultTheme from './config/defaultTheme';
 injectDefaultStyles();
 injectDefaultTyphography();
 
-export default {
+export {
   ActionFeedback,
   Area,
   Badge,
