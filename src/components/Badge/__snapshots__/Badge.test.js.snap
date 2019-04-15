@@ -3,17 +3,13 @@
 exports[`<Badge /> toMatchSnapshot: Badge 1`] = `
 <div>
   <span
-    className="badge  sc-bxivhb blaiqS"
-    onClick={[Function]}
+    className="sc-bxivhb blaiqS"
   >
     <strong
       className="sc-ifAKCX JjZUs"
     >
       Address
     </strong>
-    <span
-      className="sc-EHOje izHBeS"
-    />
   </span>
 </div>
 `;
@@ -21,8 +17,11 @@ exports[`<Badge /> toMatchSnapshot: Badge 1`] = `
 exports[`<Badge /> toMatchSnapshot: Label 1`] = `
 <div>
   <span
-    className="badge  sc-bZQynM deVMPx"
+    className="sc-bZQynM deVMPx"
   >
+    <span
+      className="sc-htoDjs bznlDS"
+    />
     <strong
       className="sc-gzVnrw gQVXV"
     >

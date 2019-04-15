@@ -13,7 +13,6 @@ exports[`<InputText /> toMatchSnapshot 1`] = `
       onChange={[Function]}
       onFocus={[Function]}
       placeholder="Do not sleep more then 3h a day. :P"
-      type="text"
     />
     <span
       className="sc-htpNat eeDWLn"
@@ -32,7 +31,6 @@ exports[`<InputText /> toMatchSnapshot 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onFocus={[Function]}
-      type="text"
     />
     <div
       className="sc-bxivhb inrsMJ"
@@ -48,7 +46,6 @@ exports[`<InputText /> toMatchSnapshot 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onFocus={[Function]}
-      type="text"
     />
     <div
       className="sc-bxivhb inrsMJ"

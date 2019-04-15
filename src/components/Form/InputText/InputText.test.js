@@ -50,7 +50,7 @@ describe('<InputText />', () => {
     const wrapper = mount(inputList);
     wrapper.find('input').at(0)
       .simulate('change');
-    expect(onChange).toHaveProperty('callCount', 0);
+    expect(onChange).toHaveProperty('callCount', 1);
   });
 
   test('toMatchSnapshot', () => {

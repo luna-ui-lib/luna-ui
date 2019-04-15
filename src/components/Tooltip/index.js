@@ -74,8 +74,6 @@ class TooltipComponent extends PureComponent {
         height: this.TooltipRef.clientHeight || 0
       };
 
-      console.log(`${this._getPlacementDefinitions()} ${this._getAlignmentDefinitions()}`)
-
       this.TooltipRef.style = `${this._getPlacementDefinitions()} ${this._getAlignmentDefinitions()}`;
     }
   }
@@ -84,7 +82,6 @@ class TooltipComponent extends PureComponent {
     const TooltipWapper = styled.div`
       display: inline-block;
       position: relative;
-
       &:hover .luna-tooltip {
         visibility: visible;
         opacity: 1;
@@ -100,11 +97,9 @@ class TooltipComponent extends PureComponent {
       border-radius: 2px;
       border: 1px solid #d5d5d5;
       z-index: 99;
-
       opacity: 0;
       visibility: hidden;
       transition: opacity ease .25s;
-
       &::after {
         content: '';
         width: 10px;
@@ -118,8 +113,8 @@ class TooltipComponent extends PureComponent {
     `;
 
     return (
-      <TooltipWapper className={this.props.className} ref={(comp) => this.TooltipWapperRef = comp}>
-        <Tooltip className="luna-tooltip" ref={(comp) => this.TooltipRef = comp}>
+      <TooltipWapper className={this.props.className} innerRef={(comp) => this.TooltipWapperRef = comp}>
+        <Tooltip className="luna-tooltip" innerRef={(comp) => this.TooltipRef = comp}>
           <TooltipContent>{this.props.content}</TooltipContent>
         </Tooltip>
         <div>{this.props.children}</div>

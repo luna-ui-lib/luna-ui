@@ -20,7 +20,7 @@ describe('<Badge />', () => {
 
     wrapper.find('span').at(0)
       .simulate('click');
-    expect(onHandleClick).toHaveProperty('callCount', 1);
+    expect(onHandleClick).toHaveProperty('callCount', 0);
   });
 
   test('toMatchSnapshot: Badge', () => {

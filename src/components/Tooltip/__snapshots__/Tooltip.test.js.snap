@@ -2,10 +2,10 @@
 
 exports[`<Tooltip /> toMatchSnapshot: Placement -> bottom 1`] = `
 <div
-  className="sc-bxivhb kRNkEl"
+  className="sc-bxivhb irOPwR"
 >
   <div
-    className="luna-tooltip sc-ifAKCX hYRDHZ"
+    className="luna-tooltip sc-ifAKCX iroWzm"
   >
     <span
       className="sc-bdVaJa gOGVcF"
@@ -25,10 +25,10 @@ exports[`<Tooltip /> toMatchSnapshot: Placement -> bottom 1`] = `
 
 exports[`<Tooltip /> toMatchSnapshot: Placement -> left 1`] = `
 <div
-  className="sc-EHOje JTHZv"
+  className="sc-EHOje jfFfHP"
 >
   <div
-    className="luna-tooltip sc-bZQynM fiJdoX"
+    className="luna-tooltip sc-bZQynM dXISCH"
   >
     <span
       className="sc-bdVaJa gOGVcF"
@@ -48,10 +48,10 @@ exports[`<Tooltip /> toMatchSnapshot: Placement -> left 1`] = `
 
 exports[`<Tooltip /> toMatchSnapshot: Placement -> right 1`] = `
 <div
-  className="sc-gzVnrw ihpEPw"
+  className="sc-gzVnrw ektNdk"
 >
   <div
-    className="luna-tooltip sc-htoDjs jprHSn"
+    className="luna-tooltip sc-htoDjs gDvThS"
   >
     <span
       className="sc-bdVaJa gOGVcF"
@@ -71,10 +71,10 @@ exports[`<Tooltip /> toMatchSnapshot: Placement -> right 1`] = `
 
 exports[`<Tooltip /> toMatchSnapshot: Placement -> top 1`] = `
 <div
-  className="sc-bwzfXH ijLNHA"
+  className="sc-bwzfXH ercWqi"
 >
   <div
-    className="luna-tooltip sc-htpNat illqYy"
+    className="luna-tooltip sc-htpNat eHocSZ"
   >
     <span
       className="sc-bdVaJa gOGVcF"

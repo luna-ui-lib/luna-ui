@@ -1,7 +1,12 @@
 {
-  "presets": ["env", "react"],
+  "presets": [ "@babel/env", "@babel/react"],
   "plugins": [
     "add-module-exports",
-    "transform-decorators-legacy"
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ]
   ]
 }
