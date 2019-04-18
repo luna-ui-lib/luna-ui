@@ -13,8 +13,18 @@
     "type": "git",
     "url": "git+https://github.com/paulsecret/luna-ui.git"
   },
-  "author": "",
+  "author": "Bruno G., Rodolfo D., Sebastian P.",
   "license": "ISC",
+  "keywords": [
+    "luna",
+    "luna ui",
+    "luna ui lib",
+    "ui",
+    "ui-lib",
+    "component lib",
+    "react",
+    "styled components"
+  ],
   "bugs": {
     "url": "https://github.com/paulsecret/luna-ui/issues"
   },
@@ -27,7 +37,7 @@
   "resolutions": {
     "babel-core": "7.0.0-bridge.0"
   },
-  "homepage": "https://github.com/paulsecret/luna-ui#readme",
+  "homepage": "https://paulsecret.github.io/luna-ui/index.html",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
     "@fortawesome/fontawesome-free-solid": "^5.0.9",
