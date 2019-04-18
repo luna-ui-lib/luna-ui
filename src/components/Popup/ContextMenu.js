@@ -76,7 +76,6 @@ class ContextMenuComponent extends React.Component {
     `;
 
     const ContextMenuButton = styled.button`
-      height: 30px;
       padding: 2px 6px;
       border: none;
       outline: none;
