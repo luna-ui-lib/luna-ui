@@ -16,16 +16,6 @@ A React ui-lib built with StyledComponents
   yarn add luna-ui-lib
  ```
 
-
-## Usage
-To install the dependencies run `yarn` or `npm install`. Then `yarn build:w` or `npm run build:w` to run the project.
-
-To load the extension on the browser:
-* Go to `chrome://extensions/` on Google Chrome
-* Clink on `Load unpacked` button, and point to the `dist` folder
-
-The `dist/main.js` file will be generated dynamically after any change in the project.
-
 ## Unit Tests
 To run the unit tests:
 ```
@@ -55,3 +45,8 @@ yarn test
 |   +-- index.js
 |   +-- setupTests.js
 ```
+
+## Team
+| <img width="70px" src="https://avatars.githubusercontent.com/mogobruno"> | <img width="70px" src="https://avatars.githubusercontent.com/rmdias"> |  <img width="70px" src="https://avatars.githubusercontent.com/sppiotrowski"> |
+|:------:|:-------:|:-----:|
+| [@mogobruno](https://www.github.com/mogobruno) | [@rmdias](https://www.github.com/rmdias) | [@sppiotrowski](https://www.github.com/sppiotrowski) |
