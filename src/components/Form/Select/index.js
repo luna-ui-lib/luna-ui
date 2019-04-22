@@ -97,7 +97,7 @@ class SelectComponent extends React.PureComponent {
 
     if (icon.length > 0) {
       return (
-        <InputWrapper>
+        <InputWrapper className={className}>
           <Select kind={kind} icon={icon} {...config}>
             {children}
           </Select>

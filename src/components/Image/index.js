@@ -17,7 +17,7 @@ class ImageComponent extends React.PureComponent {
       width: ${width};
       height: ${height};
       ${fit ? 'object-fit: cover;' : ''}
-      ${shadow ? 'box-shadow: 1px 1px 1px #838383;' : ''}
+      ${shadow ? 'box-shadow: 0 0 4px 0 rgba(0,0,0,.1)' : ''}
       ${round ? `border-radius: 100%; width: ${height}` : ''}
     `;
 

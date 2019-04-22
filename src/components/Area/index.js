@@ -19,7 +19,7 @@ class AreaComponent extends React.PureComponent {
     const Area = styled.div`
       padding: 20px;
       margin-bottom: 30px;
-      box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+      box-shadow: 0 0 4px 0 rgba(0,0,0,.1);
       border-radius: 2px;
       background-color: ${(props) => props.theme.areaColors[kind]};
     `;

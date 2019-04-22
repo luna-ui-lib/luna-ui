@@ -79,7 +79,7 @@ class CircularLoader extends React.PureComponent {
       ${(props) => this.getLoaderAnimation(props)}
     `;
 
-    return <Loader />;
+    return <Loader {...this.props} />;
   }
 }
 
