@@ -7,7 +7,11 @@
     "build": "rm -rf ./lib/* && babel src -d lib",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-docs": "yarn clean-docs && yarn build-storybook && yarn copy-docs && yarn remove-static-storybook",
+    "build-storybook": "build-storybook",
+    "clean-docs": "rm -rf ./docs/* ",
+    "copy-docs": "cp -R ./storybook-static/* ./docs",
+    "remove-static-storybook": "rm -rf storybook-static"
   },
   "repository": {
     "type": "git",
