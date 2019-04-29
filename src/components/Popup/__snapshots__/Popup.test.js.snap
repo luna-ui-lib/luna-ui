@@ -7,7 +7,7 @@ exports[`<Popup /> toMatchSnapshot: contextMenu 1`] = `
     onClick={[Function]}
   >
     <button
-      className="sc-fjdhpX ijQRov"
+      className="sc-fjdhpX ksiPYx"
     />
     <ul
       className="sc-jzJRlG jszoBt"

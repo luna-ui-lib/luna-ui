@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PercentageBar /> toMatchSnapshot 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "width": 300,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#b2e2bf",
+        "fontSize": 12,
+        "minWidth": 30,
+        "padding": "3px",
+        "width": 12.92281006071119,
+      }
+    }
+  >
+    745
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#c09be0",
+        "fontSize": 12,
+        "minWidth": 30,
+        "padding": "3px",
+        "width": 191.43104943625326,
+      }
+    }
+  >
+    11036
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#c1e8f6",
+        "fontSize": 12,
+        "minWidth": 30,
+        "padding": "3px",
+        "width": 89.50563746747616,
+      }
+    }
+  >
+    5160
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#ffb61f",
+        "fontSize": 12,
+        "minWidth": 30,
+        "padding": "3px",
+        "width": 6.14050303555941,
+      }
+    }
+  >
+    354
+  </div>
+</div>
+`;

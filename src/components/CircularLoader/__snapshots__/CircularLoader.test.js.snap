@@ -4,6 +4,9 @@ exports[`<CircularLoader /> toMatchSnapshot 1`] = `
 <div>
   <div
     className="sc-bdVaJa bAxxMn"
+    kind="default"
+    size={100}
+    type="emit"
   />
 </div>
 `;

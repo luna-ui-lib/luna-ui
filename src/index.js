@@ -27,6 +27,8 @@ import Icon from './components/Icon';
 import CircularLoader from './components/CircularLoader';
 import Paginator from './components/Paginator';
 import Tabs from './components/Tabs';
+import PercentageCircle from './components/PercentageCircle';
+import PercentageBar from './components/PercentageBar';
 
 import injectDefaultStyles from './config/defaultStyles';
 import injectDefaultTyphography from './config/defaultTyphography';
@@ -58,5 +60,7 @@ export {
   CircularLoader,
   defaultTheme,
   Paginator,
-  Tabs
+  Tabs,
+  PercentageCircle,
+  PercentageBar
 }

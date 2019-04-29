@@ -3,7 +3,7 @@
 exports[`<Table /> toMatchSnapshot: Light 1`] = `
 <div>
   <div
-    className="sc-bdVaJa gTWhUW"
+    className="sc-bdVaJa juRujZ"
     kind="light"
   >
     <header
@@ -39,7 +39,7 @@ exports[`<Table /> toMatchSnapshot: Light 1`] = `
 exports[`<Table /> toMatchSnapshot: Transparent 1`] = `
 <div>
   <div
-    className="sc-bdVaJa fZrWtX"
+    className="sc-bdVaJa hgwOFm"
     kind="transparent"
   >
     <header

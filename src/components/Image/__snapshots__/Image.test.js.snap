@@ -11,7 +11,7 @@ exports[`<Image /> toMatchSnapshot: no attrs 1`] = `
 exports[`<Image /> toMatchSnapshot: with attrs 1`] = `
 <img
   alt="Luna"
-  className="sc-bwzfXH bKvaTZ"
+  className="sc-bwzfXH MLNAr"
   src="./luna.jpg"
 />
 `;

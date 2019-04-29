@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PercentageCircle /> toMatchSnapshot 1`] = `
+<canvas
+  height={108}
+  width={108}
+/>
+`;
