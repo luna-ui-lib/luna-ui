@@ -9,7 +9,7 @@ const autocompleteList = [
   'sebastian@sebastian.de'
 ]
 
-storiesOf('Froms', module)
+storiesOf('Forms', module)
   .add('components', () => {
     return (
       <Theme theme={defaultTheme}>
