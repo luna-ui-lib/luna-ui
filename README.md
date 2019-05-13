@@ -23,7 +23,7 @@ yarn test
 ```
 
 ## Docs
-* [Storybook](https://paulsecret.github.io/luna-ui/index.html?path=/story/*) - `./docs`
+* [Storybook](https://luna-ui-lib.github.io/luna-ui/index.html?path=/story/*) - `./docs`
 
 ## Project Structure
 ```

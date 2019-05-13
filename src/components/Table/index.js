@@ -42,10 +42,9 @@ const Table = styled.div`
   }
 
   & > section > div > div, & > section > a > div {
-    min-width: 100px;
     vertical-align: middle;
     padding: 15px;
-    border-bottom: 3px solid ${(props) => props.theme.table[props.kind].border};
+    border-bottom: 2px solid ${(props) => props.theme.table[props.kind].border};
     ${
   (props) => props.theme.table[props.kind].bg ? `background-color: ${props.theme.table[props.kind].bg}` : undefined
 };
